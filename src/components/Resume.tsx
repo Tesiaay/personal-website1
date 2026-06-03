@@ -21,12 +21,12 @@ function Resume() {
         <aside className="resume-nav">
           <div className="flex flex-col items-start gap-8">
             <a href="#projects" className="resume-return-link">
-              <span>鈫?Project Index</span>
-              <span>杩斿洖鐩綍</span>
+              <span>← Project Index</span>
+              <span>返回目录</span>
             </a>
             <a href="#hero" className="resume-return-link">
-              <span>鈫?Hero Section</span>
-              <span>杩斿洖棣栭〉</span>
+              <span>← Hero Section</span>
+              <span>返回首页</span>
             </a>
           </div>
         </aside>
@@ -55,12 +55,12 @@ function Resume() {
 
             <dl className="resume-card-meta">
               <div>
-                <dt>NAME/濮撳悕</dt>
-                <dd>Tesia Zhou/鍛ㄥ浜?</dd>
+                <dt>NAME/姓名</dt>
+                <dd>Tesia Zhou/周姊亿</dd>
               </div>
               <div>
-                <dt>DIRECTION/鏂瑰悜</dt>
-                <dd>AI Product/AI 浜у搧</dd>
+                <dt>DIRECTION/方向</dt>
+                <dd>AI Product/AI 产品</dd>
               </div>
             </dl>
           </article>
@@ -73,7 +73,7 @@ function Resume() {
               rel="noopener noreferrer"
             >
               <span>View Resume</span>
-              <span>鏌ョ湅绠€鍘?</span>
+              <span>查看简历</span>
             </a>
             <a
               className="resume-action"
@@ -81,7 +81,7 @@ function Resume() {
               download="Tesia-Zhou-Resume.pdf"
             >
               <span>Download PDF</span>
-              <span>涓嬭浇绠€鍘?</span>
+              <span>下载简历</span>
             </a>
           </div>
         </div>
