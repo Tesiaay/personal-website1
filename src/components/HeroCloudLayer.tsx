@@ -1,21 +1,23 @@
+﻿const heroCloudUrl = `${import.meta.env.BASE_URL}intro/cloud-bg.png`;
+
 function HeroCloudLayer() {
   return (
     <div className="hero-cloud-scene" aria-hidden="true">
       <img
         className="hero-cloud-image hero-cloud-layer-back"
-        src="/intro/cloud-bg.png"
+        src={heroCloudUrl}
         alt=""
         draggable={false}
       />
       <img
         className="hero-cloud-image hero-cloud-layer-mid"
-        src="/intro/cloud-bg.png"
+        src={heroCloudUrl}
         alt=""
         draggable={false}
       />
       <img
         className="hero-cloud-image hero-cloud-layer-front"
-        src="/intro/cloud-bg.png"
+        src={heroCloudUrl}
         alt=""
         draggable={false}
       />

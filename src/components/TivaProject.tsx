@@ -1,5 +1,7 @@
 ﻿import { useEffect, useRef, useState } from 'react';
 
+const tivaChatflowDemoUrl = `${import.meta.env.BASE_URL}tiva-chatflow-demo.png`;
+
 const capabilities = [
   {
     en: 'Intent Routing',
@@ -181,10 +183,10 @@ function TivaProject() {
 
             <div className="tiva-modal-body">
               <figure className="tiva-modal-shot">
-                <img src="/tiva-chatflow-demo.png" alt="Actual Tiva Chatflow Screenshot" />
+                <img src={tivaChatflowDemoUrl} alt="Actual Tiva Chatflow Screenshot" />
                 <figcaption>
                   <span>Full Dify Chatflow Structure / Dify {'\u5b8c\u6574\u5de5\u4f5c\u6d41\u7ed3\u6784'}</span>
-                  <a href="/tiva-chatflow-demo.png" target="_blank" rel="noopener noreferrer">
+                  <a href={tivaChatflowDemoUrl} target="_blank" rel="noopener noreferrer">
                     Open Full Image / {'\u67e5\u770b\u5927\u56fe'}
                   </a>
                 </figcaption>

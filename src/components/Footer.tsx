@@ -1,22 +1,24 @@
+﻿const wechatQrUrl = `${import.meta.env.BASE_URL}wechat-qr.png`;
+
 const contacts = [
   {
     label: 'WeChat',
-    labelCn: '微信',
-    href: '/wechat-qr.png',
+    labelCn: '寰俊',
+    href: wechatQrUrl,
     target: '_blank',
     icon: 'wechat',
     detail: 'qr',
   },
   {
     label: 'Email',
-    labelCn: '邮箱',
+    labelCn: '閭',
     href: 'mailto:tesiazzy@163.com',
     icon: 'email',
     detail: 'tesiazzy@163.com',
   },
   {
     label: 'Phone',
-    labelCn: '电话',
+    labelCn: '鐢佃瘽',
     href: 'tel:19825092820',
     icon: 'phone',
     detail: '19825092820',
@@ -41,12 +43,12 @@ function Footer() {
         <aside className="max-w-xl">
           <div className="contact-return-nav">
             <a href="#projects" className="contact-return-link">
-              <span>← Project Index</span>
-              <span>返回目录</span>
+              <span>鈫?Project Index</span>
+              <span>杩斿洖鐩綍</span>
             </a>
             <a href="#hero" className="contact-return-link">
-              <span>← Hero Section</span>
-              <span>返回首页</span>
+              <span>鈫?Hero Section</span>
+              <span>杩斿洖棣栭〉</span>
             </a>
           </div>
 
@@ -58,13 +60,13 @@ function Footer() {
               Contact
             </h2>
             <p className="mt-4 text-xl leading-8 text-[#EFE8DD]/82 md:text-2xl">
-              联系方式
+              鑱旂郴鏂瑰紡
             </p>
           </div>
 
           <div className="mt-8 space-y-4 border-l border-[#EFE8DD]/14 pl-5 text-sm leading-7 text-[#EFE8DD]/68 md:mt-7">
             <p>Keep in touch.</p>
-            <p className="text-[#EFE8DD]/48">期待与你保持联系。</p>
+            <p className="text-[#EFE8DD]/48">鏈熷緟涓庝綘淇濇寔鑱旂郴銆?</p>
           </div>
         </aside>
 
@@ -93,7 +95,7 @@ function Footer() {
                 <span className="contact-tooltip">
                   {contact.detail === 'qr' ? (
                     <img
-                      src="/wechat-qr.png"
+                      src={wechatQrUrl}
                       alt="WeChat QR code"
                       className="h-44 w-44 object-contain"
                     />
